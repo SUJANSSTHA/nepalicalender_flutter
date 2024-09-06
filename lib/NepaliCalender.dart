@@ -15,7 +15,7 @@ class _NepaliCalenderState extends State<NepaliCalender> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Nepali Calendar"),
+        title: const Text("Nepali Calendar",style: TextStyle(fontSize: 19.0,fontWeight: FontWeight.bold,fontStyle:FontStyle.italic,),),
         backgroundColor: Colors.red,
         centerTitle: true,
         leading: Icon(Icons.calendar_month),
