@@ -16,6 +16,10 @@ class _NepaliCalenderState extends State<NepaliCalender> {
     return Scaffold(
       appBar: AppBar(
         title: const Text("Nepali Calendar"),
+        backgroundColor: Colors.red,
+        centerTitle: true,
+        leading: Icon(Icons.calendar_month),
+        // leading: Icon(Icons.NepaliCalender),
       ),
       body: FlutterBSADCalendar(
         initialDate: DateTime.now(), // Today's date
